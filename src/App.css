@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: antiquewhite;
+}
+.main_div{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid green; */
+}
+.center_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  
+   background-color: white;
+}
+
+h1{
+  color: white;
+  background-color: violet;
+  padding: 0 40px;
+  border-radius: 20px;
+}
+button{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  outline: none;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+input{
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 14px;
+  border-bottom: 4px solid violet;
+}
+ol{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-end; */
+
+}
+ol li{
+  list-style: none;
+  margin-top: 20px;
+}
+.deletebtn{
+  background-color: red;
+}
+.addbtn:hover{
+  background-color: green;
+}
